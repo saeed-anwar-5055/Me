@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saeed Anwar - Full Stack Web Developer portfolio. Modern, responsive websites built with HTML, CSS, JavaScript.">
+  <meta name="keywords" content="Saeed Anwar, Full Stack Developer, Web Developer, HTML, CSS, JavaScript, Portfolio">
+  <meta name="author" content="Saeed Anwar">
+  <title>Saeed Anwar | Full Stack Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Saeed<span>.</span></a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="availability-badge">
+            <span class="status-dot"></span> Available for freelance work
+          </div>
+          <h1 class="hero-name">Saeed Anwar</h1>
+          <h2 class="hero-title">
+            I'm a <span id="typing-text" class="typing"></span>
+          </h2>
+          <p class="hero-intro">
+            I am a full stack web developer passionate about building modern, responsive and user-friendly websites.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Hire Me <i class="fas fa-arrow-right"></i></a>
+            <a href="#projects" class="btn btn-outline">Explore My Work</a>
+          </div>
+        </div>
+        <div class="hero-illustration reveal">
+          <div class="code-window">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code><span class="code-keyword">const</span> developer = {
+  name: <span class="code-string">'Saeed Anwar'</span>,
+  role: <span class="code-string">'Full Stack'</span>,
+  skills: [<span class="code-string">'HTML'</span>, <span class="code-string">'CSS'</span>, <span class="code-string">'JS'</span>],
+  passion: <span class="code-string">'Building the web'</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid reveal">
+          <div class="about-card">
+            <i class="fas fa-code about-icon"></i>
+            <h3>Passionate Developer</h3>
+            <p>I craft clean, efficient code and turn ideas into interactive experiences. Always learning, always building.</p>
+          </div>
+          <div class="about-text">
+            <p>Hello! I'm Saeed Anwar, a full stack web developer with a deep love for creating beautiful and functional websites. I specialize in front-end development using HTML, CSS, and JavaScript, and I'm continually expanding my backend skills.</p>
+            <p>My approach blends creative design with clean code, ensuring every project is both visually appealing and technically solid. I thrive on solving problems and bringing concepts to life on the web.</p>
+            <div class="about-tags">
+              <span>Problem Solver</span>
+              <span>Creative Thinker</span>
+              <span>Fast Learner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title reveal">My Skills</h2>
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible markup that forms the sturdy skeleton of every website.</p>
+            <div class="skill-tags"><span>Semantic</span><span>Forms</span><span>SEO</span></div>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, animations, and modern styling with Flexbox and Grid.</p>
+            <div class="skill-tags"><span>Flexbox</span><span>Grid</span><span>Animations</span></div>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js skill-icon"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive, dynamic behavior, DOM manipulation, and modern ES6+ features.</p>
+            <div class="skill-tags"><span>ES6+</span><span>DOM</span><span>Fetch API</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="projects-grid reveal">
+          <div class="project-card">
+            <div class="project-image"><i class="fas fa-shopping-cart"></i></div>
+            <div class="project-info">
+              <h3>E-commerce Website</h3>
+              <p>A modern online store with cart functionality, product filtering, and responsive design.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" class="btn-small" target="_blank">Live Demo</a>
+                <a href="https://github.com/saeed-anwar-5055" class="btn-small outline" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image"><i class="fas fa-chart-line"></i></div>
+            <div class="project-info">
+              <h3>Analytics Dashboard</h3>
+              <p>Interactive dashboard with charts, data visualization, and dark mode support.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" class="btn-small" target="_blank">Live Demo</a>
+                <a href="https://github.com/saeed-anwar-5055" class="btn-small outline" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image"><i class="fas fa-rocket"></i></div>
+            <div class="project-info">
+              <h3>Creative Landing Page</h3>
+              <p>A visually striking landing page with smooth animations and modern typography.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" class="btn-small" target="_blank">Live Demo</a>
+                <a href="https://github.com/saeed-anwar-5055" class="btn-small outline" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <h3>Let's build something great together</h3>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:saeed1anwar580@gmail.com">saeed1anwar580@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/923168920170" target="_blank">+92 316 8920170</a>
+              </div>
+            </div>
+            <a href="https://wa.me/923168920170" class="btn btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+          </div>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+              <span class="error-msg" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+              <span class="error-msg" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+              <span class="error-msg" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p id="formSuccess" class="form-success"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Saeed<span>.</span></a>
+        <p>Full Stack Web Developer crafting modern digital experiences.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Saeed Anwar. All rights reserved.</p>
+      <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
